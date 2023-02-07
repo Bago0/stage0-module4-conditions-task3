@@ -6,7 +6,7 @@ public class Seasons {
             System.out.println("Summer");
         } else if (month > 8 && month <= 11) {
             System.out.println("Autumn");
-        } else if (month == 12 || month <= 2) {
+        } else if (month == 12 || (month <= 2 && month >0)) {
             System.out.println("Winter");
         } else if ( month <= 5) {
             System.out.println("Spring");
